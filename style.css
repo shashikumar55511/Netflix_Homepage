@@ -7,12 +7,9 @@ body,ul{
     overflow-x: hidden;
     font-family: Poppins;
     box-sizing: border-box;
- 
-  
 }
 html{
     scroll-behavior: smooth;
-    
 }
 .container{
     width: 100%;
@@ -20,28 +17,27 @@ html{
     margin: 0px auto;
     padding-left: auto;
     padding-right: auto;
-    
 }
 /* css for navigation element */
 .header{
     width: 100%;
     height: auto;
-    background-color:aliceblue; 
-    box-shadow:0 10px 4px rgba(69, 81, 94, 0.15);
+    background-color: white;
+    box-shadow:0 1px 4px rgba(146,161,176,.15);
     overflow: hidden;
     position: fixed;
     z-index: 999;
 }
 .brand-name{
     float: left;
-    font-size: 26px;
-    font-family: 'Comfortaa', Sans-serif;
-    font-weight: 99992;
+    font-size: 24px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 999;
     height: 70px;
-    color: black;
+    color: #0E2431;
     line-height:70px;
 }
-.nav{ 
+.nav{
     float: right;
     display: block;
 }
@@ -99,7 +95,7 @@ html{
 }
 
 .contact-btn{
-    width: 240px;
+    width: 140px;
     font-size: 16px;
     font-weight: 700;
     padding: 10px;
@@ -119,8 +115,8 @@ html{
     margin-top: 100px;
 }
 .social img{
-    width: 55px;
-    height: 55px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
     margin-right:30px;
     transition: all .3s ease-in;
@@ -132,7 +128,7 @@ html{
     transition: all .3s ease-in;
 }
 .me{
-    width: 390px;
+    width: 500px;
     height: 500px;
     float: right;
     margin-top: 100px;
@@ -267,7 +263,7 @@ start the about main section
 }
 .skill img{
     max-width: 80%;
-    height: 300PX;
+    height: auto;
     border-radius: 10px;
     margin-top: 100px;
 }
@@ -287,13 +283,13 @@ start the about main section
     box-shadow: 0 4px 25px rgba(14,36,49,.15);
     border-radius: .5rem;
     position: relative;
-    height: 350px;
-    margin: 40px;
+    height: 250px;
+    margin: 20px;
     overflow: hidden;
 }
 .work-img img{
     width: 100%;
-    height:350px;
+    height:250px;
     display: block;
     transition:1s;
     cursor: pointer;
@@ -390,8 +386,8 @@ color: #102430;
     margin: 0 auto;
 }
 .button{
-    width: 240px;
-    font-size: 21px;
+    width: 140px;
+    font-size: 16px;
     font-weight: 700;
     padding: 10px;
     color: white;
